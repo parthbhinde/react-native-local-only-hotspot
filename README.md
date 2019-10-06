@@ -4,13 +4,13 @@ This is a react native module to start a local-only hotspot on android devices r
 
 `$ npm install react-native-local-only-hotspot --save`
 
-`
-// Following permissions should be added in AndroidManifest.xml\
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>\
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>\
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>\
-// Location permission should also be taken from user at runtime<br />\
-`
+```
+// Following permissions should be added in AndroidManifest.xml
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+// Location permission should also be taken from user at runtime<br />
+```
 ## Usage
 ```javascript
 import LocalOnlyHotspot from 'react-native-local-only-hotspot';
