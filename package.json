@@ -1,0 +1,32 @@
+{
+  "name": "react-native-local-only-hotspot",
+  "title": "React Native Local Only Hotspot",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthbhinde/react-native-local-only-hotspot.git",
+    "baseUrl": "https://github.com/parthbhinde/react-native-local-only-hotspot"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Parth Bhinde"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
